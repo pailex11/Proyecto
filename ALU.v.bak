@@ -1,0 +1,25 @@
+`timescale 1ns/1ns
+
+module ALU(
+    input [31:0] A,
+    input [31:0] B,
+    input [3:0] controlALU,
+    output reg [31:0] resultadoALU,
+    output cero
+);
+    assign cero = (resultadoALU == 0); // Bandera de cero
+
+    always @(*) begin
+        case (controlALU)
+            4'b0010: resultadoALU = A + B;          // add
+            4'b0110: resultadoALU = A - B;          // sub
+            4'b0000: resultadoALU = A & B;          // and
+            4'b0001: resultadoALU = A | B;          // or
+            4'b0011: resultadoALU = A ^ B;          // xor
+            4'b1100: resultadoALU = ~(A | B);       // nor
+            4'b0111: resultadoALU = (A < B) ? 1 : 0; // slt
+            default: resultadoALU = 0;
+        endcase
+    end
+endmodule
+

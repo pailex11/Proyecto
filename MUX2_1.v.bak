@@ -1,0 +1,16 @@
+`timescale 1ns/1ns
+
+module MUX2_1(
+    input sel,                      // Selección del MUX
+    input [31:0] A,                 // Entrada 0
+    input [31:0] B,                 // Entrada 1
+    output reg [31:0] C             // Salida
+);
+    always @* begin
+        if (sel)
+            C = B;
+        else
+            C = A;
+    end
+endmodule
+

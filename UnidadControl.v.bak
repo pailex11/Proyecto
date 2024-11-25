@@ -1,0 +1,50 @@
+module Unidad_Control(
+    input wire [6:0] opcode,        // Campo opcode de la instrucción
+    output reg alu_op,             // Operación general de la ALU
+    output reg mem_lectura,        // Señal de lectura de memoria
+    output reg mem_escritura,      // Señal de escritura de memoria
+    output reg alu_fuente,         // Selección entre inmediato o registro para la ALU
+    output reg reg_escritura,      // Señal de escritura al registro
+    output reg pc_fuente,          // Selección del origen del PC
+    output reg branch              // Señal para salto condicional (BEQ)
+);
+    always @(*) begin
+        // Inicialización de señales en 0 por defecto
+        alu_op = 0;
+        mem_lectura = 0;
+        mem_escritura = 0;
+        alu_fuente = 0;
+        reg_escritura = 0;
+        pc_fuente = 0;
+        branch = 0;
+
+        // Decodificación según el opcode
+        case (opcode)
+            7'b0110011: begin // R-Type
+                alu_op = 2'b10;          // Señal para operaciones tipo R
+                alu_fuente = 0;          // Operando de registro
+                reg_escritura = 1;       // Activar escritura en registros
+            end
+            7'b0000011: begin // LW (Load Word)
+                alu_op = 2'b00;          // Señal para sumar base + inmediato
+                alu_fuente = 1;          // Operando inmediato
+                mem_lectura = 1;         // Activar lectura de memoria
+                reg_escritura = 1;       // Escribir el dato cargado en registro
+            end
+            7'b0100011: begin // SW (Store Word)
+                alu_op = 2'b00;          // Señal para sumar base + inmediato
+                alu_fuente = 1;          // Operando inmediato
+                mem_escritura = 1;       // Activar escritura en memoria
+            end
+            7'b1100011: begin // BEQ (Branch Equal)
+                alu_op = 2'b01;          // Comparar registros para salto
+                branch = 1;              // Activar señal de salto condicional
+                pc_fuente = 1;           // Cambiar el origen del PC
+            end
+            default: begin
+                // Instrucción no reconocida, todas las señales permanecen en 0
+            end
+        endcase
+    end
+endmodule
+

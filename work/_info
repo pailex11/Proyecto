@@ -1,0 +1,587 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Windows/system32
+vADD
+Z0 !s110 1731733004
+!i10b 1
+!s100 Die]bGA9f9ShF0JNlfYdI2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcnEKcb^3a0^32lNiY=TH53
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Lexpo/OneDrive/Escritorio/FASE 1
+w1730954931
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ADD.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ADD.v
+!i122 46
+L0 3 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1731733004.000000
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ADD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ADD.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@d@d
+vALU
+R0
+!i10b 1
+!s100 P<Ajg`Vo7U_h>LG7K?QLK3
+R1
+I<W>YKWR1oXO8JcY^zDalQ2
+R2
+R3
+w1730955207
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU.v
+!i122 49
+L0 3 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU.v|
+!i113 1
+R6
+R7
+n@a@l@u
+vALU_Control
+!s110 1730956828
+!i10b 1
+!s100 @GdABLF^TBTGBMX@hT<_n3
+R1
+Icie_62zYP4dbjR0F6TPPN2
+R2
+R3
+w1730956592
+Z8 8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU_Control.v
+Z9 FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU_Control.v
+!i122 34
+L0 3 26
+R4
+r1
+!s85 0
+31
+!s108 1730956828.000000
+Z10 !s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU_Control.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ALU_Control.v|
+!i113 1
+R6
+R7
+n@a@l@u_@control
+vBanco_Registros
+Z12 !s110 1731733005
+!i10b 1
+!s100 booe1cGKJlJZ?Po0>Dn0F0
+R1
+Iz11RKL4H=ohXI[jRXVnA@0
+R2
+R3
+w1730955237
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Banco_Registros.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Banco_Registros.v
+!i122 50
+L0 3 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Banco_Registros.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Banco_Registros.v|
+!i113 1
+R6
+R7
+n@banco_@registros
+vComparador_Igualdad
+R12
+!i10b 1
+!s100 X:PaIDkD]7fSKGi0nT@EO2
+R1
+IYnoc=co9YfSjhED:hGZZk0
+R2
+R3
+w1731732486
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Comparador_Igualdad.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Comparador_Igualdad.v
+!i122 60
+L0 1 9
+R4
+r1
+!s85 0
+31
+Z13 !s108 1731733005.000000
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Comparador_Igualdad.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Comparador_Igualdad.v|
+!i113 1
+R6
+R7
+n@comparador_@igualdad
+vCPU
+!s110 1730956006
+!i10b 1
+!s100 NL0:E0V2EX^];Kh3j59@H2
+R1
+IReIBWegYj<XVQFOCKKk=M2
+R2
+R3
+w1730956003
+Z14 8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Top.v
+Z15 FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Top.v
+!i122 18
+L0 3 33
+R4
+r1
+!s85 0
+31
+!s108 1730956006.000000
+Z16 !s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Top.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Top.v|
+!i113 1
+R6
+R7
+n@c@p@u
+vDesp_Izq_2
+Z18 !s110 1730955132
+!i10b 1
+!s100 36ngD676Q<Z:VV3VD<a<a0
+R1
+I?SjS=GcX9]Wn=:ebiP5`N3
+R2
+R3
+w1730955129
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Desp_Izq_2.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Desp_Izq_2.v
+!i122 11
+Z19 L0 3 6
+R4
+r1
+!s85 0
+31
+Z20 !s108 1730955132.000000
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Desp_Izq_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Desp_Izq_2.v|
+!i113 1
+R6
+R7
+n@desp_@izq_2
+vEX_MEM
+R12
+!i10b 1
+!s100 L^[:bfO4zVGE7d@gIRGzD1
+R1
+I9EU69X3oObElHoe_;0fQ]0
+R2
+R3
+w1731732638
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/EX_MEM.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/EX_MEM.v
+!i122 62
+L0 1 26
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/EX_MEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/EX_MEM.v|
+!i113 1
+R6
+R7
+n@e@x_@m@e@m
+vExt_Signo
+R18
+!i10b 1
+!s100 <hQaKj3MKP`W=?Tgn6^=02
+R1
+IQhEUDNB@b@aNWS0_Qz1l93
+R2
+R3
+w1730955105
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Ext_Signo.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Ext_Signo.v
+!i122 10
+R19
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Ext_Signo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Ext_Signo.v|
+!i113 1
+R6
+R7
+n@ext_@signo
+vID_EX
+R12
+!i10b 1
+!s100 TbM5528[GAShXaiSZGGNc2
+R1
+IbVZ=R5_kNlTG6l28fNl:Q0
+R2
+R3
+w1731732602
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ID_EX.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ID_EX.v
+!i122 59
+L0 1 30
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ID_EX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/ID_EX.v|
+!i113 1
+R6
+R7
+n@i@d_@e@x
+vIF_ID
+R12
+!i10b 1
+!s100 6f4@za`W>G@XZ@;HgcEmO0
+R1
+I2Q7E>[TT_zaVe>768Bcj_0
+R2
+R3
+w1731732587
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/IF_ID.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/IF_ID.v
+!i122 58
+L0 1 18
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/IF_ID.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/IF_ID.v|
+!i113 1
+R6
+R7
+n@i@f_@i@d
+vIntruccion_Memoria
+R0
+!i10b 1
+!s100 TCWGMg2`F1>nD0_D4H]TV2
+R1
+I:Df2g:^XgQ6?YM87mmg5]3
+R2
+R3
+w1730956347
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Intruccion_Memoria.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Intruccion_Memoria.v
+!i122 48
+L0 3 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Intruccion_Memoria.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Intruccion_Memoria.v|
+!i113 1
+R6
+R7
+n@intruccion_@memoria
+vMEM_WB
+R12
+!i10b 1
+!s100 gn3Ub4cI:M:?SEI6_APo_1
+R1
+IU@HbmzFe[WaBOG1Y5aPNF1
+R2
+R3
+w1731732677
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MEM_WB.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MEM_WB.v
+!i122 63
+L0 1 22
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MEM_WB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MEM_WB.v|
+!i113 1
+R6
+R7
+n@m@e@m_@w@b
+vMUX2_1
+R12
+!i10b 1
+!s100 R^Ee^L22[>fco@032_EJe2
+R1
+IFOf[VH6=MWLN4FX4m]k]c1
+R2
+R3
+w1730955286
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX2_1.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX2_1.v
+!i122 52
+Z21 L0 3 13
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX2_1.v|
+!i113 1
+R6
+R7
+n@m@u@x2_1
+vMUX3_1
+R12
+!i10b 1
+!s100 ZDVaHg=NAIm5UT:[g:ajo1
+R1
+I1MJN7dHcW:7;2ZEeizXK<0
+R2
+R3
+w1730955315
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX3_1.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX3_1.v
+!i122 53
+Z22 L0 3 16
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX3_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX3_1.v|
+!i113 1
+R6
+R7
+n@m@u@x3_1
+vMUX4_1
+R12
+!i10b 1
+!s100 12nDZ_0D6QldcjW2dM]W>1
+R1
+I_3R_dGFe0bkQ@]m0KP[E81
+R2
+R3
+w1730956527
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX4_1.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX4_1.v
+!i122 56
+L0 3 18
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX4_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/MUX4_1.v|
+!i113 1
+R6
+R7
+n@m@u@x4_1
+vPC
+R0
+!i10b 1
+!s100 a;N8UNl=iMY;:UK6`]8AY1
+R1
+IC^;5RAOZceW>X5XiKTk]W0
+R2
+R3
+w1730954951
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/PC.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/PC.v
+!i122 47
+R21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/PC.v|
+!i113 1
+R6
+R7
+n@p@c
+vRAM
+R12
+!i10b 1
+!s100 DQXz<hF3o<W7<R;RJ^A=:3
+R1
+IVjd=T<gd>Y9;:h@=:GdSU1
+R2
+R3
+w1730955257
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/RAM.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/RAM.v
+!i122 51
+R22
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/RAM.v|
+!i113 1
+R6
+R7
+n@r@a@m
+vShift_Left_2
+R12
+!i10b 1
+!s100 zOJaXdIPVRElD=X>S7Z4d3
+R1
+I2IeYCPbDdG7ZmiiXTiP2=2
+R2
+R3
+w1731732513
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Shift_Left_2.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Shift_Left_2.v
+!i122 61
+L0 1 6
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Shift_Left_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/Shift_Left_2.v|
+!i113 1
+R6
+R7
+n@shift_@left_2
+vTestbench_Unidad_Control_ALU
+!s110 1731733238
+!i10b 1
+!s100 cemDhzbE9hDV2LJjS<K@`1
+R1
+Iz`VSi;mNLo[Pz2UL9jjC_1
+R2
+R3
+w1731733235
+8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/TB.v
+FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/TB.v
+!i122 65
+L0 2 63
+R4
+r1
+!s85 0
+31
+!s108 1731733238.000000
+!s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/TB.v|
+!i113 1
+R6
+R7
+n@testbench_@unidad_@control_@a@l@u
+vTop
+R12
+!i10b 1
+!s100 oM?K5C6zCI6H^BDU4E<`@1
+R1
+IXQ9^1:QRdbDFnhln]QS;L0
+R2
+R3
+w1730956819
+R14
+R15
+!i122 55
+L0 3 36
+R4
+r1
+!s85 0
+31
+R13
+R16
+R17
+!i113 1
+R6
+R7
+n@top
+vUnidad_Control
+R12
+!i10b 1
+!s100 3HigBZ:80W4MBCl;VAFTG0
+R1
+I_HflH<KeEFL3_b`CmGa?90
+R2
+R3
+w1731732754
+Z23 8C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/UnidadControl.v
+Z24 FC:/Users/Lexpo/OneDrive/Escritorio/FASE 1/UnidadControl.v
+!i122 54
+L0 1 49
+R4
+r1
+!s85 0
+31
+R13
+Z25 !s107 C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/UnidadControl.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lexpo/OneDrive/Escritorio/FASE 1/UnidadControl.v|
+!i113 1
+R6
+R7
+n@unidad_@control
+vUnidad_Control_ALU
+R12
+!i10b 1
+!s100 A:8ZG^CJb>:BV`gXiJXIa0
+R1
+IU^1oGkY1;j]2E_<2hj72Q3
+R2
+R3
+w1731732832
+R8
+R9
+!i122 57
+L0 1 32
+R4
+r1
+!s85 0
+31
+R13
+R10
+R11
+!i113 1
+R6
+R7
+n@unidad_@control_@a@l@u
+vUnidadControl
+!s110 1730956827
+!i10b 1
+!s100 BcBXVg_QhR6`lYeg^8F]B3
+R1
+Ii<Pn@SHKG7lZcB_f;fjcn0
+R2
+R3
+w1730955699
+R23
+R24
+!i122 31
+L0 3 31
+R4
+r1
+!s85 0
+31
+!s108 1730956827.000000
+R25
+R26
+!i113 1
+R6
+R7
+n@unidad@control

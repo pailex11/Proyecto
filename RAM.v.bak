@@ -1,0 +1,19 @@
+`timescale 1ns/1ns
+
+module RAM (
+    input wire [31:0] Datoin,       // Dato de entrada
+    input wire [4:0] Dir,           // Dirección de memoria
+    input wire WE,                  // Señal de escritura
+    input wire RE,                  // Señal de lectura
+    output reg [31:0] Datoout       // Dato de salida
+);
+    reg [31:0] ram [0:63];
+
+    always @* begin
+        if (WE)
+            ram[Dir] = Datoin;
+        else if (RE)
+            Datoout = ram[Dir];
+    end
+endmodule
+
